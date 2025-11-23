@@ -53,26 +53,26 @@ export default function sobre() {
 
           <p className="px-4 text-justify indent-6">
             Compre suas roupas e acessórios na Mirror Fashion. Acesse{" "}
-            <a href="#" className="text-blue-700">
+            <Link href="#" className="text-blue-700">
               nossa loja
-            </a>
+            </Link>
             ou entre em{" "}
-            <a href="#" className="text-blue-700">
+            <Link href="" className="text-blue-700">
               contato
-            </a>{" "}
+            </Link>{" "}
             se tiver dúvidas. Conheça também nossa{" "}
-            <a href="#" className="text-blue-700">
+            <Link href="#historia" className="text-blue-700">
               história
-            </a>{" "}
+            </Link>{" "}
             e nossos{" "}
-            <a href="#" className="text-blue-700">
+            <Link href="#diferencial" className="text-blue-700">
               diferenciais
-            </a>
+            </Link>
             .
           </p>
         </section>
 
-        <section className="mt-6 px-4">
+        <section className="mt-6 px-4" id="historia">
           <h1 className="font-bold text-3xl border-b border-b-black">
             História
           </h1>
@@ -122,7 +122,7 @@ export default function sobre() {
           </p>
         </section>
 
-        <section className="mt-6 px-4">
+        <section className="mt-6 px-4" id="diferencial">
           <h1 className="font-bold text-3xl border-b border-b-black">
             Diferencial
           </h1>
